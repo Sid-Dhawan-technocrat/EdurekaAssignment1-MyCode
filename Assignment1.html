@@ -18,19 +18,21 @@
             <section>
                 
                 <div class="title-text">Breakfast places in Mumbai</div>
+                
                 <article class="filters-article">
-                    <label>Time preference</label>
-        <select>
-            <option value="10-12">10AM-12PM</option>
-            <option value="1-2">1pm-2pm</option>
-            <option value="3-4">3pm-4pm</option>
-            <optgroup label="Choose timing">
-                <option value="4">4PM</option>
-                <option value="5">5PM</option>
-            </optgroup>
+                    <div class="ArticleContent">
+                        <div>
+                            Filters
+                            <br>
+                    <label>Select location</label>
+                    <br>
+        <select class="locationSelector">
+            <option value="Default">Select location</option>
+            <option value="Branch1">Goregaon</option>
+            <option value="Branch2">Andheri</option>
+            <option value="Branch3">Bandra</option>
         </select>
-                    <div class="ArticleContent"><div>
-                    Filters
+                    
                     <br>
                 <label><h4 id="CuisineID">Cuisine</h4></label>
                 
@@ -59,8 +61,9 @@
             </div>
             <div class="PriceOrdering">
                 <label><h4 id="SortingID">Sorting</h4></label>
-                <input type="radio">Price low to high</input>
-                <input type="radio">Price high to low</input></div>
+                <input type="radio" name="price-range">Price low to high</input>
+                <br>
+                <input type="radio" name="price-range">Price high to low</input></div>
             
             </div>
         </div>
@@ -88,6 +91,7 @@
                     
                 </div>
                 </div>
+            </div>
                 </article>
                 <article class="result2-article">
                     
@@ -100,11 +104,11 @@
                 <hr>
                 <div class="DetailsEatery2">
                     
-                        <div>CUISINES:
+                        <div class="third-div">CUISINES:
                         <br>
                             COST FOR TWO:
                             </div>
-                            <div>
+                            <div class="fourth-div">
                                Bakery
                                <br>
                                INR700

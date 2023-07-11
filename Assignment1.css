@@ -247,19 +247,41 @@ position:absolute;
 }
 
 .DetailsEatery1{
-    top:200px;
+    top:100px;
     position:absolute;
     margin:10px;
-    display:flex;
-    flex-direction: row;
-    align-content: space-around;
-    
+    /* display:flex; */
+    left:250px;
+    /* flex-direction: row-reverse; */
+    align-content: center;
+    justify-content: center;
 }
 
-.DetailsEatery1>div{
+.first-div{
+    top:-50px;
     left:20px;
     margin:20px;
     padding:10px;
+    position:absolute;
+    width:130px
+}
+
+.second-div{
+    top:-20px;
+    left:300px;
+    position:absolute;
+}
+
+.third-div{
+    left:50px;
+    top:-20px;
+    position:absolute;
+    width:130px;
+}
+
+.fourth-div{
+    left:300px;
+    top:-20px;
     position:absolute;
 }
 
@@ -267,9 +289,10 @@ position:absolute;
     top:200px;
     position:absolute;
     margin:10px;
-    display:flex;
-    flex-direction: row;
+    /* display:flex; */
+    /* flex-direction: row; */
     align-content: space-around;
+
 }
 .pagination{
     position:absolute;
@@ -299,3 +322,8 @@ position:absolute;
 
 .pagination>div:hover{
     background-color:#8C96AB}
+
+.locationSelector{
+    width:220px;
+
+}
