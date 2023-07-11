@@ -1,0 +1,301 @@
+*{
+    font-family:Poppins;
+    /* background-color:#fbfbfb; */
+}
+
+header{
+    background-color:#ce0505;
+    height:80px;
+    position:relative;
+
+}
+
+.logo-span{
+    background-color:white;
+    border-radius:50%;
+    padding:15px 20px;
+    position:absolute;
+    left:80px;
+    top:10px;
+}
+
+
+.logo{
+    color:#ce0505;
+    font-size:33px;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.login-signup{
+    position:absolute;
+    right:80px;
+    top: 25px;
+    word-spacing:10px;
+}
+
+.login{
+    color:white;
+    text-decoration:none;
+}
+
+.create-account{
+    color:white;
+    text-decoration:none;
+    border:1px solid;
+    padding:10px 10px;
+    word-spacing:normal;
+    border-radius:5px;
+}
+
+section{
+    position:relative;
+    padding: 20px 50px;
+}
+
+.title-text{
+    color:#192f60;
+    font-weight:600;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.filters-article{
+    width:260px;
+    height:682px;
+    box-shadow: 0px 3px 6px 0 rgba(0,0,0,0.25);
+    background-color:#ffffff;
+    position:absolute;
+    top:195px;
+    left:113px;
+}
+
+.ArticleContent{
+    padding:20px;
+}
+#CuisineID
+{
+top: 335px;
+left: 140px;
+width: 52px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;}
+
+#CostID{
+    top: 544px;
+left: 140px;
+width: 89px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+
+}
+
+#SortingID{
+    top: 756px;
+left: 139px;
+width: 37px;
+height: 25px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 18px/27px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+
+.result1-article{
+    width:794px;
+    height:291px;
+    box-shadow:0px 3px 6px #00000029;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    top:195px;
+    left:418px;
+    opacity:1;
+    position:absolute;
+}
+
+.result1-article>img{
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    border-radius:20%;
+    position:absolute;
+}
+
+#eatery1{
+top: 2px;
+left: 200px;
+width: 353px;
+height: 43px;
+text-align: left;
+font: normal normal 600 30px/46px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+position:absolute;
+z-index:1;
+}
+
+#eatery2{
+top: 3px;
+left: 200px;
+width: 250px;
+height: 43px;
+text-align: left;
+font: normal normal 600 30px/46px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+position:absolute;
+}
+
+#article1{
+    top: 52px;
+left: 200px;
+width: 40px;
+height: 13px;
+text-align: left;
+font: normal normal medium 16px/30px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+position:absolute;
+}
+
+#article2{
+    top: 52px;
+    left: 200px;
+    width: 40px;
+    height: 13px;
+    text-align: left;
+    font: normal normal medium 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    position:absolute;
+
+}
+
+#addressEatery1{
+top: 70px;
+left: 200px;
+width: 370px;
+height: 23px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #636F88;
+opacity: 1;
+position:absolute;
+}
+
+hr{
+    opacity:0.5;
+    color:#8C96AB;
+    top:150px;
+    position:relative;
+}
+
+.result2-article{
+    width:794px;
+    height:291px;
+    box-shadow:0px 3px 6px #00000029;
+    background: #FFFFFF  0% 0% no-repeat padding-box;
+    top:520px;
+    left:418px;
+    opacity:1;
+    position:absolute;
+}
+
+.result2-article>img{
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    height: 120px;
+    /* UI Properties */
+    opacity: 1;
+    border-radius:20%;
+    padding:5px;
+    position:absolute;
+}
+
+#addressEatery2{
+    top: 70px;
+left: 200px;
+width: 370px;
+height: 23px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #636F88;
+opacity: 1;
+position:absolute;
+
+}
+
+.DetailsEatery1{
+    top:200px;
+    position:absolute;
+    margin:10px;
+    display:flex;
+    flex-direction: row;
+    align-content: space-around;
+    
+}
+
+.DetailsEatery1>div{
+    left:20px;
+    margin:20px;
+    padding:10px;
+    position:absolute;
+}
+
+.DetailsEatery2{
+    top:200px;
+    position:absolute;
+    margin:10px;
+    display:flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+.pagination{
+    position:absolute;
+    /* left:50%; */
+    top: 849px;
+    left: 500px;
+    /* UI Properties */
+    /* text-align: left; */
+    letter-spacing: 0px;
+    opacity: 1;
+    display:flex;
+    flex-direction:row;
+
+}
+
+
+.pagination>div{
+    border:1px solid black;
+    border-radius:20%;
+    font: normal normal medium 20px/30px Poppins;
+    padding:20px;
+    margin: 20px;
+    text-align: center;
+    width:36px;
+    height:36px;
+}
+
+.pagination>div:hover{
+    background-color:#8C96AB}
